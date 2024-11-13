@@ -1,3 +1,5 @@
+const birdsController = require('../controllers/birdsController')
+
 // basic CRUD operations for birds
 const getAllBirds = async (req, res) => {
     res.send('All birds')
